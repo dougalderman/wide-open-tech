@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 600vh;
+}
+
+.num1 {
+  height: 15%;
+  width: 100%;
+  background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.png");
+  position: relative;
+  font-family: Arial, "Helvetica", sans-serif;
+  color: white;
+}
+
+.num1 img {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+}
+
+.num1 .navBar {
+  display: inline-block;
+  position: absolute;
+  top: 55px;
+  left: 500px;
+}
+
+.num1 .navBar a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.num1 .navBar a:hover {
+  color: lightgreen;
+}
+
+.num1 .small {
+  font-size: 20px;
+}
+
+.num1 .large {
+  font-size: 125px;
+}
+
+.num1 > :nth-child(3) {
+  position: absolute;
+  top: 140px;
+  left: 230px;
+}
+
+.num1 > :nth-child(4) {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+}
+
+.num1 > :nth-child(5) {
+  position: absolute;
+  top: 320px;
+  left: 370px;
+}
+
+.num1 .small strong:first-child {
+  color: orange;
+}
+
+.num1 .small strong:nth-child(2) {
+  color: lightgreen;
+}
+
+.num1 .boxes {
+  position: absolute;
+  top: 420px;
+  left: 250px;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 700px;
+}
+
+.num1 .boxes .box {
+  height: inherit;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.num1 .boxes > :first-child {
+  background: lightgreen;
+}
+
+.num1 .boxes > :nth-child(2) {
+  background: darkgrey;
+}
+
+.num1 .boxes > :nth-child(3) {
+  background: lightgrey;
+}
+
+.num1 .boxes > :nth-child(4) {
+  background: lightblue;
+}
+
+.num1 .boxes > :nth-child(5) {
+  background: rgba(255, 255, 0, 0.44);
+}
+
+.num1 .boxes .box a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+  align-self: center;
+  text-align: center;
+}
+
+.num1 .boxes .box a:hover {
+  color: black;
+}
+
+.num2 {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  top: 100%;
+  font-family: Arial, "Helvetica", sans-serif;
+  background: lightgrey;
+  color: black;
+}
+
+.num3 {
+
+}
+
+.num4 {
+
+}
+
+.num5 {
+
+}
+
+.num6 {
+
+}
+
+.num7 {
+
+}
+
+.num8 {
+
+}
+
+footer {
+
+}
