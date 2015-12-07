@@ -15,31 +15,33 @@ html, body {
   height: 15%;
   width: 100%;
   background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.png");
-  position: relative;
+/*  position: relative; */
   font-family: Arial, "Helvetica", sans-serif;
   color: white;
 }
 
-.num1 img {
-  height: 100px;
-  width: 200px;
-  position: absolute;
-  top: 20px;
-  left: 150px;
+.num1 .num1Row1 {
+  height: 15%;
+  width: 50%;
+  margin: 20px auto;
+  position: relative;
 }
 
-.num1 .navBar {
+.num1 .num1Row1 .companyImage {
+  width: 100px;
+}
+
+.num1 .num1Ro21 .navBar {
   display: inline-block;
   position: absolute;
-  top: 55px;
-  left: 500px;
+  right: 0;
 }
 
 .num1 .navBar a {
   text-decoration: none;
   color: inherit;
-  font-size: 15px;
-  margin-right: 15px;
+  font-size: 10px;
+  margin-right: 10px;
 }
 
 .num1 .navBar a:hover {
