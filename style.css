@@ -12,7 +12,7 @@ html, body {
 }
 
 .num1 {
-  height: 15%;
+  height: 25%;
   width: 100%;
   background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.png");
   /* position: relative; */
@@ -22,7 +22,7 @@ html, body {
 
 .num1 .num1Row1 {
   height: 12%;
-  width: 35%;
+  width: 50%;
   margin: 20px auto;
   position: relative;
 }
@@ -52,27 +52,29 @@ html, body {
 
 .num1 .num1Row2 {
   /* height: 5%; */
-  width: 35%;
-  margin: 5px auto 0;
+  width: 45%;
+  margin: 50px auto 0;
 }
 
 .num1 .num1Row3 {
   text-align: center;
-  height: 35%;
+  height: 25%;
   width: 100%;
-  margin: 0 auto;
+  margin: -20px auto 0;
+  /* padding-top: -30px; */
   /* border-bottom: 15px solid white; */
   position: relative;
+  /* left: 10px; */
   /* z-index: -1; */
   /* background-color: green; */
 }
 
 .num1 .small {
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .num1 .large {
-  font-size: 115px;
+  font-size: 100px;
 }
 
 /* .num1 > :nth-child(3) {
@@ -103,22 +105,43 @@ html, body {
   background-color: blue;
 } */
 
-.num1 .num1Row4 span {
+/* .num1 .num1Row4 span {
   position: relative:
   bottom: 15px;
-  /* z-index: 1; */
-  /* background-color: pink; */
-  /* opacity: 1; */
-}
+  z-index: 1;
+} */
+
 .num1 .num1Row4  {
   height: 10%;
+  width: 35%;
   margin: 0 auto;
   /* opacity: 0.5; */
   /* background-color: red; */
   text-align: center;
   position: relative;
-  bottom: 15px;
 }
+
+.num1 .num1Row4 .whiteBar {
+  height: 8px;
+  display: block;
+  background: #fff;
+  /* height: 9px; */
+  width: 12%;
+  position: absolute;
+  top: 10px;
+}
+
+
+.num1 .num1Row4 .whiteBar:first-child {
+  position: absolute;
+  left: 0;
+}
+
+.num .num1Row4 .whiteBar:nth-child(2) {
+  position: absolute;
+  right: 0;
+}
+
 
 .num1 .small strong:first-child {
   color: orange;
