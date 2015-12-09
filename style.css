@@ -8,44 +8,63 @@ html, body {
 }
 
 .main {
-  height: 600vh;
+  height: 300vh;
 }
 
 .num1 {
   height: 15%;
   width: 100%;
   background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.png");
-/*  position: relative; */
-  font-family: Arial, "Helvetica", sans-serif;
+  /* position: relative; */
+  font-family: 'Roboto Slab', serif;
   color: white;
 }
 
 .num1 .num1Row1 {
-  height: 15%;
-  width: 50%;
+  height: 12%;
+  width: 35%;
   margin: 20px auto;
   position: relative;
 }
 
 .num1 .num1Row1 .companyImage {
-  width: 100px;
+  width: 150px;
+  padding-top: 20px;
 }
 
-.num1 .num1Ro21 .navBar {
+.num1 .num1Row1 .navBar {
   display: inline-block;
   position: absolute;
   right: 0;
+  top: 20px;
 }
 
-.num1 .navBar a {
+.num1 .num1Row1 .navBar a {
   text-decoration: none;
   color: inherit;
-  font-size: 10px;
+  font-size: 12px;
   margin-right: 10px;
 }
 
-.num1 .navBar a:hover {
+.num1 .num1Row1 .navBar a:hover {
   color: lightgreen;
+}
+
+.num1 .num1Row2 {
+  /* height: 5%; */
+  width: 35%;
+  margin: 5px auto 0;
+}
+
+.num1 .num1Row3 {
+  text-align: center;
+  height: 35%;
+  width: 100%;
+  margin: 0 auto;
+  /* border-bottom: 15px solid white; */
+  position: relative;
+  /* z-index: -1; */
+  /* background-color: green; */
 }
 
 .num1 .small {
@@ -53,10 +72,10 @@ html, body {
 }
 
 .num1 .large {
-  font-size: 125px;
+  font-size: 115px;
 }
 
-.num1 > :nth-child(3) {
+/* .num1 > :nth-child(3) {
   position: absolute;
   top: 140px;
   left: 230px;
@@ -73,6 +92,33 @@ html, body {
   top: 320px;
   left: 370px;
 }
+*/
+
+/* .num1 .num1Row4 {
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+  background-color: blue;
+} */
+
+.num1 .num1Row4 span {
+  position: relative:
+  bottom: 15px;
+  /* z-index: 1; */
+  /* background-color: pink; */
+  /* opacity: 1; */
+}
+.num1 .num1Row4  {
+  height: 10%;
+  margin: 0 auto;
+  /* opacity: 0.5; */
+  /* background-color: red; */
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+}
 
 .num1 .small strong:first-child {
   color: orange;
@@ -83,13 +129,14 @@ html, body {
 }
 
 .num1 .boxes {
-  position: absolute;
+  /* position: absolute;
   top: 420px;
-  left: 250px;
+  left: 250px; */
   display: flex;
   flex-direction: row;
   height: 100px;
   width: 700px;
+  margin: 0 auto;
 }
 
 .num1 .boxes .box {
