@@ -111,12 +111,13 @@ html, body {
   z-index: 1;
 } */
 
+/*
 .num1 .num1Row4  {
   height: 10%;
   width: 35%;
   margin: 0 auto;
-  /* opacity: 0.5; */
-  /* background-color: red; */
+  //opacity: 0.5;
+  //background-color: red;
   text-align: center;
   position: relative;
 }
@@ -125,7 +126,7 @@ html, body {
   height: 8px;
   display: block;
   background: #fff;
-  /* height: 9px; */
+  // height: 9px;
   width: 12%;
   position: absolute;
   top: 10px;
@@ -155,13 +156,13 @@ html, body {
   /* position: absolute;
   top: 420px;
   left: 250px; */
-  display: flex;
+/*  display: flex;
   flex-direction: row;
   height: 100px;
   width: 700px;
   margin: 0 auto;
 }
-
+/*
 .num1 .boxes .box {
   height: inherit;
   width: 20%;
@@ -200,7 +201,7 @@ html, body {
 .num1 .boxes .box a:hover {
   color: black;
 }
-
+*/
 .num2 {
   height: 300px;
   width: 100%;
