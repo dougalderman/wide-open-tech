@@ -14,7 +14,8 @@ html, body {
 .num1 {
   height: 25%;
   width: 100%;
-  background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.png");
+  background-image: url("images/wot-masthead-dark.jpg");
+  background-size: cover;
   /* position: relative; */
   font-family: 'Roboto Slab', serif;
   color: white;
@@ -22,13 +23,13 @@ html, body {
 
 .num1 .num1Row1 {
   height: 12%;
-  width: 50%;
+  width: 60%;
   margin: 20px auto;
   position: relative;
 }
 
 .num1 .num1Row1 .companyImage {
-  width: 150px;
+  width: 137px;
   padding-top: 20px;
 }
 
@@ -60,13 +61,8 @@ html, body {
   text-align: center;
   height: 25%;
   width: 100%;
-  margin: -20px auto 0;
-  /* padding-top: -30px; */
-  /* border-bottom: 15px solid white; */
+  margin: -20px auto 20px;
   position: relative;
-  /* left: 10px; */
-  /* z-index: -1; */
-  /* background-color: green; */
 }
 
 .num1 .small {
@@ -77,69 +73,48 @@ html, body {
   font-size: 100px;
 }
 
-/* .num1 > :nth-child(3) {
-  position: absolute;
-  top: 140px;
-  left: 230px;
-}
 
-.num1 > :nth-child(4) {
-  position: absolute;
-  top: 180px;
-  left: 300px;
-}
-
-.num1 > :nth-child(5) {
-  position: absolute;
-  top: 320px;
-  left: 370px;
-}
-*/
-
-/* .num1 .num1Row4 {
-  width: 30%;
-  margin: 0 auto;
-  position: relative;
-  left: 15px;
-  bottom: 15px;
-  background-color: blue;
-} */
-
-/* .num1 .num1Row4 span {
+.num1 .num1Row4 span {
   position: relative:
   bottom: 15px;
-  z-index: 1;
-} */
+}
 
-/*
+
 .num1 .num1Row4  {
   height: 10%;
-  width: 35%;
-  margin: 0 auto;
-  //opacity: 0.5;
-  //background-color: red;
+  width: 60%;
+  margin: 25px auto 10px;
   text-align: center;
   position: relative;
 }
 
-.num1 .num1Row4 .whiteBar {
+/* .num1 .num1Row4 .whiteBar {
   height: 8px;
   display: block;
   background: #fff;
-  // height: 9px;
   width: 12%;
   position: absolute;
   top: 10px;
-}
+} */
 
 
-.num1 .num1Row4 .whiteBar:first-child {
+.num1Row4 > span:first-child {
+  height: 8px;
+  display: block;
+  background: #fff;
+  width: 12%;
   position: absolute;
+  top: 10px;
   left: 0;
 }
 
-.num .num1Row4 .whiteBar:nth-child(2) {
+.num1Row4 > span:nth-child(3) {
+  height: 8px;
+  display: block;
+  background: #fff;
+  width: 12%;
   position: absolute;
+  top: 10px;
   right: 0;
 }
 
@@ -156,13 +131,13 @@ html, body {
   /* position: absolute;
   top: 420px;
   left: 250px; */
-/*  display: flex;
+  display: flex;
   flex-direction: row;
-  height: 100px;
-  width: 700px;
+  height: 80px;
+  width: 600px;
   margin: 0 auto;
 }
-/*
+
 .num1 .boxes .box {
   height: inherit;
   width: 20%;
@@ -201,7 +176,7 @@ html, body {
 .num1 .boxes .box a:hover {
   color: black;
 }
-*/
+
 .num2 {
   height: 300px;
   width: 100%;
@@ -238,4 +213,16 @@ html, body {
 
 footer {
 
+}
+
+@media screen and (max-width: 900px) {
+  .num1 .num1Row1 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .num1 .num1Row1 {
+    width: 100%;
+  }
 }
