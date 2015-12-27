@@ -88,16 +88,6 @@ html, body {
   position: relative;
 }
 
-/* .num1 .num1Row4 .whiteBar {
-  height: 8px;
-  display: block;
-  background: #fff;
-  width: 12%;
-  position: absolute;
-  top: 10px;
-} */
-
-
 .num1Row4 > span:first-child {
   height: 8px;
   display: block;
@@ -134,22 +124,22 @@ html, body {
   display: flex;
   flex-direction: row;
   height: 80px;
+  justify-content: center;
   width: 600px;
   margin: 0 auto;
 }
 
 .num1 .boxes .box {
   height: inherit;
+  display: block;
   width: 20%;
-  display: flex;
-  justify-content: center;
-  transition: transform 2s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 
-.num1 .boxes .box .rotate {
-  transform: perspective 200px rotateY(90deg);
-
+.box.openDoor {
+  transform: perspective(400px) rotateY(75deg);
 }
+
 .num1 .boxes > :first-child {
   background: lightgreen;
 }
@@ -170,7 +160,7 @@ html, body {
   background: rgba(255, 255, 0, 0.44);
 }
 
-.num1 .boxes .box a {
+.num1 .boxes a {
   text-decoration: none;
   color: inherit;
   font-size: 15px;
@@ -178,8 +168,39 @@ html, body {
   text-align: center;
 }
 
-.num1 .boxes .box a:hover {
+.num1 .boxes a:first-child :hover {
   color: black;
+  text-align: right;
+  background-image: url("images/mobile-applications.svg");
+  background-repeat: no-repeat;
+}
+
+.num1 .boxes a:nth-child(2) :hover {
+  color: black;
+  text-align: right;
+  background-image: url("images/eCommerce.svg");
+  background-repeat: no-repeat;
+}
+
+.num1 .boxes a:nth-child(3) :hover {
+  color: black;
+  text-align: right;
+  background-image: url("images/custom-software.svg");
+  background-repeat: no-repeat;
+}
+
+.num1 .boxes a:nth-child(4) :hover {
+  color: black;
+  text-align: right;
+  background-image: url("images/systems-integration.svg");
+  background-repeat: no-repeat;
+}
+
+.num1 .boxes a:nth-child(5) :hover {
+  color: black;
+  text-align: right;
+  background-image: url("images/seo-services.svg");
+  background-repeat: no-repeat;
 }
 
 .num2 {
